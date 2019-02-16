@@ -1,0 +1,63 @@
+{
+  "id": "2f265e63-7452-46c0-b0d2-630e821f637a",
+  "alias": "GsvrDeptEventsWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "gsvrDeptEvents"
+      },
+      "description": {
+        "default": "events for each dept"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "gsvrDeptEvents"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "gsvr-dept-events-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "gsvr-dept-events-web-part": {
+        "type": "path",
+        "path": "dist/gsvr-dept-events-web-part.js"
+      },
+      "GsvrDeptEventsWebPartStrings": {
+        "defaultPath": "lib/webparts/gsvrDeptEvents/loc/en-us.js",
+        "type": "localizedPath",
+        "paths": {}
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.4.1",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.4.1",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "version": "1.4.1",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "version": "1.4.1",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gsvr-dept-events-client-side-solution",
+    "id": "d0cf5aad-510b-4043-977f-fca566a2d86c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/gsvr-dept-events.sppkg"
+  }
+}
